@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(89, 215, 167);
+    text-align: center;
+}
+.heading{
+    line-height: 9rem;
+    font-size: 2rem;
+    color: white;
+    font-weight: 900;
+}
+
+.body{
+    min-width: 60vw;
+}
+.context{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-weight: 900;
+}
+.btn, .code{
+    background-color: rgb(72, 68, 68);
+    padding: 1% 1.5%;
+    color: white;
+    border-radius: 8px;
+}
+.btn{
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.btn:hover {
+    background-color: #1e8e3e;
+    color: white;
+  }
+.code{
+    cursor: not-allowed;
+    font-size: 1.5rem;
+}
+.color{
+    margin: 5% 1%;
+   display: flex;
+   flex-wrap: wrap;
+}
+.item{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 33.3%;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+    border-radius: 15px;
+}
+footer {
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    bottom: 0;
+    margin-bottom: 0;
+    padding: 5px;
+    line-height: 3vh;
+  }
+  
+  footer a:visited {
+    color: inherit;
+  }
